@@ -244,14 +244,14 @@ div.listing-text {
 }
 
 .listing-text h2 {
-    color: #E5E7EB;
+    color: #F9FAF8;
     font-size: 36px;
     font-weight: bolder;
     margin-bottom: 24px;
 }
 
 .listing-text p {
-    color: #E5E7EB;
+    color: #F9FAF8;
     font-size: 18px;
     line-height: 1.5;
 }
@@ -275,4 +275,46 @@ div.listing-grid {
 
 .listing-grid .card span {
     color: #5075a8;
+}
+
+/* Featured section */
+section#featured {
+    padding: 40px 0;
+    background-color: #F9FAF8;
+}
+
+div.featured {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+div.featured-text {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+div.featured-text h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 24px;
+}
+
+div.featured-text p {
+    color: #1F2937;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+div.property-grid {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.property img {
+    width: 100%;
+    height: auto;
 }
