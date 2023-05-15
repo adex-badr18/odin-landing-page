@@ -79,7 +79,7 @@ div.logo span {
 /* header */
 header {
     background-color: #1F2937;
-    padding: 48px 0;
+    padding: 40px 0;
 }
 
 .hero {
@@ -128,6 +128,8 @@ header {
     font-weight: bold;
 }
 
+/* Stats section */
+
 section.stats {
     background-color: #E5E7EB;
     padding: 40px 0;
@@ -155,4 +157,66 @@ section.stats {
 .counter-item p {
     font-size: 18px;
     font-weight: 600;
+}
+
+/* About section */
+section#about {
+    padding: 40px 0;
+}
+
+div.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.about-text {
+    align-self: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about-text h2 {
+    color: #3882F6;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.about-text h3 {
+    color: #1F2937;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+div.about-grid {
+    align-self: flex-start;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.about-grid .card {
+    text-align: center;
+    border: 2px solid #3882F6;
+    border-radius: 15px 0 15px 0;
+    padding: 30px 15px;
+    flex: 1;
+}
+
+.card span {
+    color: #3882F6;
+    font-size: 64px;
+    margin-bottom: 10px;
+}
+
+.card h4 {
+    color: #1F2937;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #1F2937;
+    font-size: 18px;
 }
