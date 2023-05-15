@@ -30,3 +30,46 @@ div.body {
     margin: 0 auto;
 }
 
+/* Navbar */
+nav {
+    background-color: #3b4e69;
+}
+
+nav ul {
+    display: flex;
+    
+}
+
+nav ul li {
+    font-size: 18px;
+    padding-left: 40px;
+}
+
+nav ul li a {
+    color: #E5E7EB;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+
+div.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+div.logo span {
+    font-size: 50px;
+    margin-right: 10px;
+}
