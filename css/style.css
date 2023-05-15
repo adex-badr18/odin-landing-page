@@ -127,3 +127,32 @@ header {
     font-size: 18px;
     font-weight: bold;
 }
+
+section.stats {
+    background-color: #E5E7EB;
+    padding: 40px 0;
+}
+
+.counter {
+    display: flex;
+    justify-content: space-around;
+}
+
+.counter-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1F2937;
+}
+
+.counter-item h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #3882F6;
+}
+
+.counter-item p {
+    font-size: 18px;
+    font-weight: 600;
+}
