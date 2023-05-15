@@ -2,7 +2,9 @@ html {
     box-sizing: border-box;
 }
 
-*, *::after, *::before {
+*,
+*::after,
+*::before {
     box-sizing: inherit;
     margin: 0;
     padding: 0;
@@ -37,7 +39,7 @@ nav {
 
 nav ul {
     display: flex;
-    
+
 }
 
 nav ul li {
@@ -87,11 +89,11 @@ header {
 }
 
 .hero-text {
-    width: 40%;
+    width: 55%;
 }
 
 .hero img {
-    width: 55%;
+    width: 40%;
 
 }
 
