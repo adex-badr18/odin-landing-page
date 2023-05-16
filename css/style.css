@@ -345,3 +345,25 @@ div.property-info p {
 div.property-info p span {
     color: #3882F6;
 }
+
+/* Quote section */
+section.blockquote {
+    background-color: #E5E7EB;
+}
+
+div.quote {
+    padding: 100px 0;
+}
+
+.quote blockquote {
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+}
+
+.quote cite {
+    align-self: flex-end;
+}
