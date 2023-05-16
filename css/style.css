@@ -203,7 +203,7 @@ div.about-grid {
     border: 2px solid #c4d6f3;
     border-radius: 15px 0 15px 0;
     padding: 30px 15px;
-    flex: 1;
+    flex: 1 1 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
