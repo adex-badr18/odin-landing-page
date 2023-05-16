@@ -138,6 +138,7 @@ section.stats {
 .counter {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .counter-item {
@@ -145,6 +146,7 @@ section.stats {
     flex-direction: column;
     align-items: center;
     color: #1F2937;
+    flex: 2;
 }
 
 .counter-item h1 {
@@ -198,10 +200,11 @@ div.about-grid {
 
 .about-grid .card {
     text-align: center;
-    border: 2px solid #3882F6;
+    border: 2px solid #c4d6f3;
     border-radius: 15px 0 15px 0;
     padding: 30px 15px;
     flex: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .card span {
@@ -271,6 +274,7 @@ div.listing-grid {
     padding: 30px 15px;
     flex: 1 1 200px;
     background-color: #E5E7EB;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .listing-grid .card span {
@@ -322,6 +326,7 @@ div.property {
     border: 1px solid #E5E7EB;
     min-width: 300px;
     flex: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 div.property-info {
@@ -383,6 +388,7 @@ div.cta {
     background-color: #3882F6;
     padding: 50px 50px;
     border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 div.cta-header {
