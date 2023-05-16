@@ -438,8 +438,96 @@ footer {
 
 div.footer {
     padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
 }
 
+div.brand {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 16px;
+    color: #1F2937;
+}
+
+div.brand div.footer-logo {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    /* align-items: center; */
+}
+
+div.brand div.footer-logo span {
+    font-size: 50px;
+    margin-right: 10px;
+}
+
+.brand p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.brand .footer-address {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.brand .footer-address li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.brand .footer-address li h4 {
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.brand .footer-address li span {
+    color: #3882F6;
+}
+
+.brand .footer-social {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.brand .footer-social a {
+    color: #65686d;
+    font-size: 14px;
+}
+
+div.links {
+    display: flex;
+    justify-content: space-between;
+    
+    gap: 20px;
+    flex: 2;
+    color: #1F2937
+}
+
+div.links h4 {
+    font-size: 20px;
+}
+
+div.links ul {
+    padding-top: 16px;
+}
+
+div.links li {
+    padding: 8px 0;
+}
+
+div.links a {
+    color: #1F2937;
+}
+
+/* Copyright section */
 div.copyright {
     text-align: center;
     background-color: #1F2937;
@@ -447,3 +535,4 @@ div.copyright {
     color: #FFF;
     font-size: 18px;
 }
+
