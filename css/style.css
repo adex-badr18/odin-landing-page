@@ -113,7 +113,8 @@ header {
     font-size: 24px;
 }
 
-.hero-link, .listing-btn {
+.hero-link,
+.listing-btn {
     border: 1px solid #3882F6;
     border-radius: 15px 0 15px 0;
     width: 140px;
@@ -126,7 +127,8 @@ header {
     justify-content: center;
 }
 
-.hero-link a, .listing-btn a {
+.hero-link a,
+.listing-btn a {
     color: #fff;
     font-size: 18px;
     font-weight: bold;
@@ -466,15 +468,15 @@ div.cta-body input {
         width: 100%;
     }
 
-    .hero .hero-link {
-        margin: 15px auto;
+    .hero .hero-link,
+    .listing-btn {
+        display: none;
     }
 
     div.listing {
         flex-direction: column;
         align-items: center;
         gap: 15px;
-        border: 2px solid red;
     }
 
     div.listing-text {
@@ -482,16 +484,11 @@ div.cta-body input {
         text-align: center;
     }
 
-    div.listing-btn {
-        margin: 0 auto;
-    }
-
     div.listing-grid {
         flex-flow: row wrap;
         min-width: 100%;
         align-self: center;
         margin: 0 auto;
-        border: 2px solid red;
     }
 
     div.listing-grid .card {
@@ -508,6 +505,7 @@ div.cta-body input {
         margin-top: 15px;
     }
 }
+
 /* END OF RESPONSIVENESS */
 
 /* Footer section */
@@ -586,7 +584,7 @@ div.brand div.footer-logo span {
 div.links {
     display: flex;
     justify-content: space-between;
-    
+
     gap: 20px;
     flex: 2;
     color: #1F2937
@@ -616,4 +614,3 @@ div.copyright {
     color: #FFF;
     font-size: 18px;
 }
-
