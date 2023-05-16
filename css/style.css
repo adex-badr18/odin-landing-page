@@ -311,10 +311,37 @@ div.featured-text p {
 div.property-grid {
     display: flex;
     justify-content: space-between;
-
+    flex-wrap: wrap;
+    gap: 16px;
 }
 
-.property img {
-    width: 100%;
-    height: auto;
+div.property {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #E5E7EB;
+    min-width: 300px;
+    flex: 1;
+}
+
+div.property-info {
+    padding: 24px;
+    color: #1F2937;
+    text-align: center;
+}
+
+div.property-info h4 {
+    font-size: 22px;
+}
+
+div.property-info p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0;
+    gap: 10px;
+}
+
+div.property-info p span {
+    color: #3882F6;
 }
