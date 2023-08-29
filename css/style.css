@@ -614,3 +614,9 @@ div.copyright {
     color: #FFF;
     font-size: 18px;
 }
+
+@media (max-width: 350px) {
+    .links {
+        flex-direction: column;
+    }
+}
